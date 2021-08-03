@@ -1,0 +1,52 @@
+:root {
+    --hero-color:#ffdfdf; 
+    --hero-text-color: #606470;
+    --hero-button-color: #bae5d5; 
+    --heading-font-family: 'Georama', sans-serif;
+}
+
+
+
+
+h1, h2{
+   color: #606470; 
+   font-weight: bold;
+font-family: var(--heading-font-family);
+}
+
+p {
+    font-family: var(--heading-font-family); 
+    font-weight: normal; 
+    color: #606470;
+}
+
+
+
+.hero {
+    background: var(--hero-color); 
+    text-align: center;
+    padding: 160px 20px; 
+}
+
+.hero p {
+font-family: var(--heading-font-family); 
+font-size: 36px;
+margin: 0; 
+}
+
+.btn-primary {
+    background: var(--hero-button-color);
+    border-radius: 4px;
+    color: #757a79; 
+    font-size: 18px; 
+    line-height: 27px; 
+    padding: 12px 20px; 
+    border-color: var(--hero-button-color); 
+
+}
+
+.btn-primary.hover {
+    background: white ;
+    border-color: white;
+    color: var(--hero-button-color) ;
+}
