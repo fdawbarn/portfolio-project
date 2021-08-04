@@ -3,6 +3,7 @@
     --hero-text-color: #606470;
     --hero-button-color: #bae5d5; 
     --heading-font-family: 'Georama', sans-serif;
+    --button-color: #bee4d2;
 }
 
 
@@ -45,8 +46,49 @@ margin: 0;
 
 }
 
-.btn-primary.hover {
+.btn-primary .hover {
     background: white ;
     border-color: white;
     color: var(--hero-button-color) ;
+}
+
+.projects {
+    font-size: 38px;
+}
+
+.btn-projects {
+    font-size: 18px; 
+    line-height: 27px; 
+    padding: 12px 20px; 
+    border: 1px solid var(--button-color); 
+    background: #bee4d2; 
+}
+
+.project-header {
+    text-align: center;
+    font-size:20px; 
+}
+
+.product-description{
+    padding: 120px 60px;  
+}
+
+@media (max-width:900px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .hero {
+        padding: 80px 20px; 
+    }
+
+    .product-description{
+        padding: 0; 
+        text-align: center;
+    }
 }
