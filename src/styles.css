@@ -46,7 +46,7 @@ margin: 0;
 
 }
 
-.btn-primary .hover {
+.btn-primary:hover {
     background: white ;
     border-color: white;
     color: var(--hero-button-color) ;
@@ -62,11 +62,18 @@ margin: 0;
     padding: 12px 20px; 
     border: 1px solid var(--button-color); 
     background: #bee4d2; 
+    color: #757a79; 
+}
+
+.btn-projects:hover {
+background: white ;
+    border-color: white;
+    color: var(--hero-button-color);
 }
 
 .project-header {
     text-align: center;
-    font-size:20px; 
+    font-size:28px; 
 }
 
 .product-description{
