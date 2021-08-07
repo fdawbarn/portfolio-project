@@ -29,6 +29,14 @@ p {
     padding: 160px 20px; 
 }
 
+.main {
+    background: var(--hero-color); 
+    text-align: center;
+    padding: 160px 20px; 
+}
+
+
+
 .hero p {
 font-family: var(--heading-font-family); 
 font-size: 36px;
@@ -80,6 +88,33 @@ background: white ;
     padding: 120px 60px;  
 }
 
+
+
+.main{
+    padding: 60px 20px; 
+}
+
+
+.main h1{
+    font-size: 44px; 
+    line-height: 80px; 
+    font-family: var(--heading-font-family);
+}
+
+.main h2 {
+    font-size: 18px; 
+font-family: var(--heading-font-family);
+}
+
+.main {
+   margin: 30px;  
+}
+
+.about {
+    max-width: 75%;
+    max-height: 75%;
+}
+
 @media (max-width:900px) {
 
     h1 {
@@ -89,13 +124,20 @@ background: white ;
     h2 {
         font-size: 24px;
     }
+     
+   
 
     .hero {
         padding: 80px 20px; 
+        
     }
 
     .product-description{
         padding: 0; 
         text-align: center;
     }
+.main{
+    text-align: center;
+    padding: 0; 
+}
 }
