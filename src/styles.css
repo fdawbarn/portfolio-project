@@ -1,143 +1,135 @@
 :root {
-    --hero-color:#ffdfdf; 
-    --hero-text-color: #606470;
-    --hero-button-color: #bae5d5; 
-    --heading-font-family: 'Georama', sans-serif;
-    --button-color: #bee4d2;
+  --hero-color: #ffdfdf;
+  --hero-text-color: #606470;
+  --hero-button-color: #bae5d5;
+  --heading-font-family: "Georama", sans-serif;
+  --button-color: #bee4d2;
 }
 
+h1,
+h2 {
+  color: #606470;
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+}
 
-
-
-h1, h2{
-   color: #606470; 
-   font-weight: bold;
-font-family: var(--heading-font-family);
+h3 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  color: #606470;
 }
 
 p {
-    font-family: var(--heading-font-family); 
-    font-weight: normal; 
-    color: #606470;
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  color: #606470;
 }
 
-
-
 .hero {
-    background: var(--hero-color); 
-    text-align: center;
-    padding: 160px 20px; 
+  background: var(--hero-color);
+  text-align: center;
+  padding: 160px 20px;
 }
 
 .main {
-    background: var(--hero-color); 
-    text-align: center;
-    padding: 160px 20px; 
+  background: var(--hero-color);
+  text-align: center;
+  padding: 160px 20px;
 }
 
-
-
 .hero p {
-font-family: var(--heading-font-family); 
-font-size: 36px;
-margin: 0; 
+  font-family: var(--heading-font-family);
+  font-size: 36px;
+  margin: 0;
 }
 
 .btn-primary {
-    background: var(--hero-button-color);
-    border-radius: 4px;
-    color: #757a79; 
-    font-size: 18px; 
-    line-height: 27px; 
-    padding: 12px 20px; 
-    border-color: var(--hero-button-color); 
-
+  background: var(--hero-button-color);
+  border-radius: 4px;
+  color: #757a79;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+  border-color: var(--hero-button-color);
 }
 
 .btn-primary:hover {
-    background: white ;
-    border-color: white;
-    color: var(--hero-button-color) ;
+  background: white;
+  border-color: white;
+  color: var(--hero-button-color);
 }
 
 .projects {
-    font-size: 38px;
+  font-size: 38px;
 }
 
 .btn-projects {
-    font-size: 18px; 
-    line-height: 27px; 
-    padding: 12px 20px; 
-    border: 1px solid var(--button-color); 
-    background: #bee4d2; 
-    color: #757a79; 
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+  border: 1px solid var(--button-color);
+  background: #bee4d2;
+  color: #757a79;
 }
 
 .btn-projects:hover {
-background: white ;
-    border-color: white;
-    color: var(--hero-button-color);
+  background: white;
+  border-color: white;
+  color: var(--hero-button-color);
 }
 
 .project-header {
-    text-align: center;
-    font-size:28px; 
+  text-align: center;
+  font-size: 28px;
 }
 
-.product-description{
-    padding: 120px 60px;  
-}
-
-
-
-.main{
-    padding: 60px 20px; 
-}
-
-
-.main h1{
-    font-size: 44px; 
-    line-height: 80px; 
-    font-family: var(--heading-font-family);
-}
-
-.main h2 {
-    font-size: 18px; 
-font-family: var(--heading-font-family);
+.product-description {
+  padding: 120px 60px;
 }
 
 .main {
-   margin: 30px;  
+  padding: 60px 20px;
+}
+
+.main h1 {
+  font-size: 44px;
+  line-height: 80px;
+  font-family: var(--heading-font-family);
+}
+
+.main h2 {
+  font-size: 18px;
+  font-family: var(--heading-font-family);
+}
+
+.main {
+  margin: 30px;
 }
 
 .about {
-    max-width: 75%;
-    max-height: 75%;
+  max-width: 75%;
+  max-height: 75%;
 }
 
-@media (max-width:900px) {
+@media (max-width: 900px) {
+  h1 {
+    font-size: 24px;
+  }
 
-    h1 {
-        font-size: 24px;
-    }
+  h2 {
+    font-size: 24px;
+  }
 
-    h2 {
-        font-size: 24px;
-    }
-     
-   
+  .hero {
+    padding: 80px 20px;
+  }
 
-    .hero {
-        padding: 80px 20px; 
-        
-    }
-
-    .product-description{
-        padding: 0; 
-        text-align: center;
-    }
-.main{
+  .product-description {
+    padding: 0;
     text-align: center;
-    padding: 0; 
-}
+  }
+  .main {
+    text-align: center;
+    padding: 0;
+  }
 }
