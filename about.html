@@ -1,44 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-     <link
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This page is about Freya Dawbarn, who is a front-end developer based in the UK."
+    />
+    <title>About Freya Dawbarn, a Front-end Developer</title>
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/styles.css" />
-     <script
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-     <script src="https://kit.fontawesome.com/5772d86612.js" crossorigin="anonymous"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap" rel="stylesheet">
-    </head>
-<body>
-  <div class="main">
+    <script
+      src="https://kit.fontawesome.com/5772d86612.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
-    <div class="row mb-5">
-      <div class = "col-lg-6">
-        <h1 class= "mb-3"> Hi, I'm Freya Dawbarn</h1>
-    <h2 class= "mb-3"> Frontend Developer, based in the UK  </h2>
-    <p class="mb-4">
-      Nulla facilisi. Praesent placerat rhoncus malesuada. Praesent leo sapien, facilisis eget metus sed, commodo sagittis orci. Mauris gravida condimentum nisl, eget facilisis felis. Fusce vulputate, nibh eget porttitor molestie, mi risus condimentum tellus, maximus tincidunt magna libero id tellus. Curabitur sed efficitur mi, a efficitur velit. Quisque dignissim nisl a lorem semper convallis. Nunc aliquam viverra suscipit. Cras lobortis diam eu lorem molestie auctor. Nullam a tristique mi. In cursus eros dapibus felis auctor pellentesque et a nisi.
-    </p>
-    <a href="" class="btn btn-projects mb-5 ">See my projects</a>
+      <nav class="d-flex justify-content-between">
+        <img src="images/logo.png" class="logo" alt="Freya logo" />
+        <ul>
+          <li>
+            <a href="index.html" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="about.html" title="About Freya">About</a>
+          </li>
+          <li><a href="work.html" title="Freya's work page">Work</a></li>
+          <li><a href="contact.html" title="Contact Freya">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-      <div class = "col-lg-6">
-    <img src="images/Freya.jpeg" class="img-fluid about" alt=""/>
+    <div class="main">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <h1 class="mb-3">Hi, I'm Freya Dawbarn</h1>
+            <h2 class="mb-3">Front-end Developer, based in the UK</h2>
+            <p class="mb-4">
+              Nulla facilisi. Praesent placerat rhoncus malesuada. Praesent leo
+              sapien, facilisis eget metus sed, commodo sagittis orci. Mauris
+              gravida condimentum nisl, eget facilisis felis. Fusce vulputate,
+              nibh eget porttitor molestie, mi risus condimentum tellus, maximus
+              tincidunt magna libero id tellus. Curabitur sed efficitur mi, a
+              efficitur velit. Quisque dignissim nisl a lorem semper convallis.
+              Nunc aliquam viverra suscipit. Cras lobortis diam eu lorem
+              molestie auctor. Nullam a tristique mi. In cursus eros dapibus
+              felis auctor pellentesque et a nisi.
+            </p>
+            <a
+              href="work.html"
+              title="Link to Freya's projects page "
+              class="btn btn-projects mb-5"
+              >See my projects</a
+            >
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="images/Freya.jpeg"
+              class="img-fluid about"
+              alt="Freya image"
+            />
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
-    </div>
-</body>
+    <footer>
+      <div class="contact-box d-flex justify-content-center">
+        <div>
+          <h4 class="text-muted">Let's work together</h4>
+          <a
+            href="contact.html"
+            class="btn btn-contact d-flex justify-content-center"
+            title="Contact Freya"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/fdawbarn"
+          target="_blank"
+          title="Github page"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="text-center mt-4">
+        This project was coded by Freya Dawbarn, and it is
+        <a
+          href="https://github.com/fdawbarn/portfolio-project"
+          title="Freya's Github page"
+          target="_blank"
+        >
+          open-sourced
+        </a>
+      </p>
+    </footer>
+  </body>
 </html>
